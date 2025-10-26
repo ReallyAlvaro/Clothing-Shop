@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whear?</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f9f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background: #4e175e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    header nav {
+      margin-top: 10px;
+    }
+
+    header nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Hero */
+    .hero {
+      background: url("img.2.jpg") no-repeat center center/cover;
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 15px 25px;
+      border-radius: 10px;
+    }
+
+    .logo-box {
+      width: 100px;
+      height: auto;
+      border: none;
+      border-radius: 5x;
+      object-fit: cover;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    .container2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .box-img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .box {
+        width: 100%;
+        max-width: 150px;
+        height: 150px;
+        border: 2px solid #aaa;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f4f9f4;
+        cursor: pointer;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      color: #4e175e;
+      margin-bottom: 15px;
+    }
+
+    input[type="number"] {
+      padding: 10px;
+      width: 150px;
+      border: 2px solid magenta;
+      border-radius: 10px;
+      margin-right: 10px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background: magenta;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background: #4e175e;
+    }
+
+    .result {
+      margin-top: 15px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #4e175e;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+      text-align: center;
+    }
+
+    .stats .card {
+      background: #e8f5e9;
+      padding: 20px;
+      border-radius: 10px;
+      width: 200px;
+    }
+
+    .aboutus-text {
+      font-size: 100px;
+    }
+
+    footer {
+      background: #4e175e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .container3 {
+      height: 200px;
+      width: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Logo.1.jpg" alt="Logo" class="logo-box">
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#shopping">Shopping</a>
+      <a href="#about_us">About us</a>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <h1>Buy Comfortable Clothes 👕</h1>
+  </section>
+
+  <section id="about_us">
+  <div class="container">
+    <div class="aboutus-text">Hello!</div>
+    <p>the logo of this store i combine the word "Wear" and "Where"🤩 and this is my Coding Project</p>
+  </div>
+  </section>
+ 
+    <!-- Statistik -->
+    <div class="stats">
+      <div class="card">
+        <h3>Under 12$</h3>
+        <p>Cheap Clothes</p>
+      </div>
+      <div class="card">
+        <h3>polyster,cotton,others</h3>
+        <p>Very Comfortable Material</p>
+      </div>
+      <div class="card">
+        <h3>Very New Clothing shop</h3>
+        <p>Made in Oct 2025</p>
+      </div>
+    </div>
+  </div>
+
+  <section id="shopping" class="container">
+    <h2>T-Shirts 👕</h2>
+    <p>comfortable material</p>
+    <div class="container2">
+      <div class="box">
+        <a href="file:///C:/Users/ALO-ALE/OneDrive/Documents/Coding%20Project/DarkBlueTS.html" class="box-img">
+          <img src="img.1.webp" alt="DarkBlue" class="box">
+        </a>
+    </div>
+    <div class="box">
+        <a href="file:///C:/Users/ALO-ALE/OneDrive/Documents/Coding%20Project/LightGreenTS.html" class="box-img">
+          <img src="img.3.webp" alt="LightGreen" class="box">
+        </a>
+    </div>
+    <div class="box">
+        <a href="file:///C:/Users/ALO-ALE/OneDrive/Documents/Coding%20Project/DarkGreenTS.html" class="box-img">
+          <img src="img.4.jpg" alt="DarkGreen" class="box">
+        </a>
+    </div>
+    <div class="box">
+        <a href="file:///C:/Users/ALO-ALE/OneDrive/Documents/Coding%20Project/PurpleTS.html" class="box-img">
+          <img src="img.5.jpg" alt="Purple" class="box">
+        </a>
+    </div>
+    <div class="box">
+        <a href="file:///C:/Users/ALO-ALE/OneDrive/Documents/Coding%20Project/YellowTS.html" class="box-img">
+          <img src="img.6.jpg" alt="Yellow" class="box">
+        </a>
+    </div>
+    <div class="box">
+        <a href="file:///C:/Users/ALO-ALE/OneDrive/Documents/Coding%20Project/BlackTS.html" class="box-img">
+          <img src="img.7.jpg" alt="Black" class="box">
+        </a>
+    </div>
+    <div class="box">
+        <a href="file:///C:/Users/ALO-ALE/OneDrive/Documents/Coding%20Project/WhiteTS.html" class="box-img">
+          <img src="img.8.jpg" alt="White" class="box">
+        </a>
+    </div>
+    <div class="box">
+        <a href="file:///C:/Users/ALO-ALE/OneDrive/Documents/Coding%20Project/OrangeTS.html" class="box-img">
+          <img src="img.9.jpg" alt="Orange" class="box">
+        </a>
+    </div>
+    <div class="box">
+        <a href="file:///C:/Users/ALO-ALE/OneDrive/Documents/Coding%20Project/RedTs.html" class="box-img">
+          <img src="img.10.jpg" alt="Red" class="box">
+        </a>
+    </div>
+    <div class="box">
+        <a href="file:///C:/Users/ALO-ALE/OneDrive/Documents/Coding%20Project/PinkTS.html" class="box-img">
+          <img src="img.11.jpg" alt="Pink" class="box">
+        </a>
+    </div>
+  </section>
+
+  <section id="shopping" class="container">
+    <h2>Pants 👖</h2>
+    <p>comfortable material</p>
+    <div class="container2">
+      <div class="box">
+        <a href="file:///C:/Users/ALO-ALE/OneDrive/Documents/Coding%20Project/pants1.html" class="box-img">
+          <img src="Pants.1.jpg" alt="Beige" class="box">
+        </a>
+    </div>
+    <div class="box">
+        <a href="file:///C:/Users/ALO-ALE/OneDrive/Documents/Coding%20Project/pants2.html" class="box-img">
+          <img src="pants.2.jpg" alt="Black" class="box">
+        </a>
+    </div>
+    <div class="box">
+        <a href="file:///C:/Users/ALO-ALE/OneDrive/Documents/Coding%20Project/pants3.html" class="box-img">
+          <img src="pants.3.jpg" alt="Black" class="box">
+        </a>
+    </div>
+    <div class="box">
+        <a href="file:///C:/Users/ALO-ALE/OneDrive/Documents/Coding%20Project/pants3.html" class="box-img">
+          <img src="pants.4.jpg" alt="Black" class="box">
+        </a>
+    </div>
+
+  <footer>
+    <h1>More clothes coming soon..</h1>
+  </footer>
+</body>
+</html>

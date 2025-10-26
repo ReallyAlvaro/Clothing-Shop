@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whear?/:BlackTrouser</title>
+    <style>
+        body {
+          text-align: center;
+          background: white;
+          padding-top: 50px;
+        }
+
+        .wrapper {
+          display: flex;
+          height: 100px;
+          width: 100px;
+          position: absolute;
+          left: 75px;
+          top: 100px;
+          align-items: flex-start;
+        }
+
+        .wrapper img {
+          width: 300px;
+          height: auto;
+          background: lightgray;
+          border-radius: 10px;
+          box-shadow: 0 4px 6px black;
+        }
+    
+    .container {
+      max-width: 110px;
+      margin: 150px;
+      padding: 50px;
+      color: #333;
+      border-radius: 10px;
+    }
+
+    .button-container {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    button {
+      background: green;
+      color: white;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      
+    }
+
+    button:hover {
+      background: darkgreen;
+    }
+
+    input[type="number"] {
+      border: 2px solid grey;
+      border-radius: 5px;
+    }
+
+    .zoom-ing {
+        width: 200px;
+        transition: transform 0.3s;
+        cursor: pointer;
+    }
+
+    .zoom-ing:active {
+        transform: scale(1.5);
+    }
+
+    h2 {
+      background-color: lightgray;
+      padding: 15px;
+      border-radius: 10px;
+      display: inline-block;
+      font-size: 50px;
+      color: black;
+    }
+
+    h1 {
+      border-radius: 5px;
+      margin-top: 15px;
+      font-size: 32px;
+    }
+    </style>
+</head>
+<h2 style="text-align: center;">Black Trouser</h2>
+<h1 style="position: absolute; top: 175px; left: 445px;">9$</h1>
+<h1 style="position: absolute; top: 220px; left: 600px;">Size</h1>
+<button style="position: absolute; top: 275px; left: 550px;" onclick="s">S</button>
+<button style="position: absolute; top: 275px; left: 590px;" onclick="m">M</button>
+<button style="position: absolute; top: 275px; left: 633px;" onclick="l">L</button>
+<button style="position: absolute; top: 275px; left: 673px;" onclick="xl">XL</button>
+<div class="button-container">
+  <button style="position: absolute; top: 325px; right: 700px;" onclick="buy">Buy</button>
+  <input style="position: absolute; top: 335px; right: 530px;" type="number">
+</div>
+<p style="position: absolute; top: 400px; left: 500px;">a very good shirt, comfortable, cheap.</p>
+<body>
+  <div class="wrapper">
+      <img src="pants.2.jpg" alt="Black" class="zoom-ing">
+  </div>
+</body>
+</html>
